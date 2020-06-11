@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+}
+button {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 4rem;
+    padding: 1rem .5rem;
+    transition: all .3s ease;
+    width: 25rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    outline: none;
+    height: 10rem;
+    font-family: myFirstFont;
+}
+button:hover {
+    cursor: pointer;
+}
+.user:hover {
+    box-shadow: 0 0 1rem #ffc600;
+    border-color: #ffc600;
+}
+
+.container {
+min-height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: lightcoral;
+flex-wrap: nowrap;
+
+}
+.containerLeft {
+    width: 50%;
+    background-color: #067BC2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+
+}
+.containerRight {
+    width: 50%;
+    background-color: #D64045;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.selected {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+.user {
+}
+#compR {
+
+}
+#compP {
+
+}
+#compS {
+
+}
+.header {
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 30rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 .5rem black;
+    outline: none;
+    height: auto;
+    font-family: myFirstFont;
+    font-size: 2em;
+}
+.gameNumber {
+    margin: 1rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 20rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 .5rem black;
+    outline: none;
+    height: auto;
+    font-family: myFirstFont;
+    font-size: 2em;
+    background: #333533;
+    border: .4rem solid black;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    
+
+}
+.bigContain {
+    position: relative;
+}
+.center {
+margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0;
+}
+.absoCenter {
+    margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(ARCADECLASSIC.TTF);
+    font-stretch: extra-expanded;
+}
+.alert{
+    border: .4rem solid #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+    border-radius: .5rem;
+    font-size: 4rem;
+    padding: 1rem .5rem;
+    transition: all .3s ease;
+    width: 50rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    outline: none;
+    height: 20rem;
+    font-family: myFirstFont;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+.again {
+    background-color: lightslategray;
+}
+.out {
+    opacity: 0;
+}
+.winner {
+    background-color: rgba(255, 198, 0, 0.5);
+}
+.faded {
+    opacity: 0.5;
+}
+.faded:hover {
+    border: .4rem solid black;
+    box-shadow: none;
+    cursor: auto;
+}
+.tie {
+    background-color: rgba(167, 206, 203, 0.9);
+}
+.other {
+}
+.other:hover {
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
