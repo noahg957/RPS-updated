@@ -1,1 +1,2 @@
-# RPS-updated
+# rps
+Rock, Paper, Scissors!
